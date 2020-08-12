@@ -44,7 +44,7 @@
     "cross-env": "5.2.0",
     "jsome": "2.5.0",
     "minimist": "1.2.0",
-    "rimraf": "2.6.2",
+    "rimraf": "2.7.1",
     "slash": "2.0.0",
     "testcafe": "0.20.5",
     "testcafe-live": "0.1.3",
