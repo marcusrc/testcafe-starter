@@ -19,7 +19,9 @@
     "preinstall": "rimraf node_modules",
     "pretestcafe-static-analyser": "rimraf reports",
     "testcafe-static-analyser": "testcafe-static-analyser",
-    "build-step-mappings": "ts-node step-mappings/generator"
+    "build-step-mappings": "ts-node step-mappings/generator",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -50,7 +52,8 @@
     "testcafe-live": "0.1.3",
     "testcafe-reporter-teamcity": "1.0.10",
     "ts-node": "7.0.0",
-    "typescript": "2.9.2"
+    "typescript": "2.9.2",
+    "@snyk/protect": "latest"
   },
   "devDependencies": {
     "eslint": "5.2.0",
@@ -64,5 +67,6 @@
   "engines": {
     "vscode": "^1.18.0",
     "node": ">=6.0.0"
-  }
+  },
+  "snyk": true
 }
