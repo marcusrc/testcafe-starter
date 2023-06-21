@@ -41,7 +41,7 @@
     "@types/minimist": "1.2.0",
     "@types/node": "10.5.2",
     "chalk": "2.4.1",
-    "cross-env": "5.2.0",
+    "cross-env": "6.0.0",
     "jsome": "2.5.0",
     "minimist": "1.2.0",
     "rimraf": "2.6.2",
@@ -53,7 +53,7 @@
     "typescript": "2.9.2"
   },
   "devDependencies": {
-    "eslint": "5.2.0",
+    "eslint": "7.0.0",
     "npm-run-all": "4.1.3",
     "prettier": "1.13.7",
     "testcafe-static-analyser": "0.2.4",
